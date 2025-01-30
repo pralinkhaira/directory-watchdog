@@ -46,7 +46,8 @@ pip install watchdog
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/d57bde8f-ac55-4e91-9e50-634a2453a1d7)
+- ![image](https://github.com/user-attachments/assets/d57bde8f-ac55-4e91-9e50-634a2453a1d7)
+- ![image](https://github.com/user-attachments/assets/120417b2-1e7f-4a58-b62e-c8f688f96121)
 
 
 ## Example
