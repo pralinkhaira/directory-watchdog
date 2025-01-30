@@ -44,6 +44,11 @@ pip install watchdog
 - **Events Displayed:** Creation, modification, deletion, and movement of files.
 - **Stop Monitoring:** Close the application to stop monitoring the directory.
 
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/d57bde8f-ac55-4e91-9e50-634a2453a1d7)
+
+
 ## Example
 
 When you create, modify, delete, or move a file in the monitored directory, the corresponding event will be shown in the GUI output.
