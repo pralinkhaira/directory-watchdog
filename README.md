@@ -26,7 +26,7 @@ pip install watchdog
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/directory-watchdog.git
+   git clone https://github.com/pralinkhaira/directory-watchdog.git
    cd directory-watchdog
    ```
 
@@ -63,6 +63,38 @@ Modified: /path/to/directory/modified_file.txt
 Deleted: /path/to/directory/old_file.txt
 Moved: from /path/to/directory/old_location.txt to /path/to/directory/new_location.txt
 ```
+
+## Update v2 by Marcus (October 1, 2025)
+
+### New Features Added:
+- **Error Handling:** Improved robustness with comprehensive error handling for directory selection and monitoring
+- **Status Indicator:** Visual status display showing current monitoring state (Monitoring/Not Monitoring/Error)
+- **Clear Output Button:** Added ability to clear the monitoring history with one click
+- **Timestamps:** All events now include timestamps for better tracking
+- **File Extension Filter:** New filter functionality to monitor specific file types
+  - Example: Enter `.txt,.pdf` to only monitor text and PDF files
+  - Leave empty to monitor all files
+
+### GUI Improvements:
+- Added button frame for better organization
+- Status label showing current monitoring state
+- File extension filter input field
+- Clear output button alongside directory selection
+
+### Example Output with New Features:
+```
+[2025-10-01 14:30:22] Monitoring directory: C:/Users/Documents
+[2025-10-01 14:30:45] Created: C:/Users/Documents/new_file.txt
+[2025-10-01 14:31:01] Modified: C:/Users/Documents/existing_file.pdf
+Status: Monitoring
+```
+
+### Coming Soon:
+- Pause/Resume monitoring functionality
+- Save logs to file option
+- Dark/Light theme toggle
+- System tray minimization
+- Last monitored directory memory
 
 ## Contributing
 
